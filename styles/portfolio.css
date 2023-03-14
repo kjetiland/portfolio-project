@@ -54,3 +54,6 @@ p {
   line-height: 27px;
   padding: 15 px 30px;
 }
+.bottom-text {
+  text-align: center;
+}
