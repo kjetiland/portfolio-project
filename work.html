@@ -26,9 +26,43 @@
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+     <meta
+      name="description"
+      content="Patricia is a front-end engineer based in Portugal."
+    />
+    <title>Front-end developer - Patricia Pereira</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Patricia"> About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Patricia's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Patricia"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -37,7 +71,7 @@
             <img
               src="images/yogurt.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Yogurt project preview"
             />
             <h3 class="text-center m-0">Yogurt project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -46,7 +80,7 @@
             <img
               src="images/weather.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather project preview"
             />
             <h3 class="text-center m-0">Weather project</h3>
             <p class="text-center text-muted">
@@ -57,7 +91,7 @@
             <img
               src="images/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Dictionary project preview"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">
@@ -68,7 +102,7 @@
             <img
               src="images/translation.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Translation project preview"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">
@@ -78,15 +112,69 @@
         </div>
       </div>
     </div>
-    <div class="bottom-text">
+    </body>
+    <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none- d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Patricia"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="E-mail Patricia"
+          >
+            patricia@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.github.com/patricia"
+            target="_blank"
+            title="Github Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/patricia"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/patricia"
+            target="_blank"
+            title="Facebook Profile"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      
+    </div>
+    <p class="text-center mt-5">
       This project was coded by Kjetil Andersen and is
-      <a href="https://github.com/kjetiland/portfolio-project"
+      <a href="https://github.com/kjetiland/portfolio-project" target="_blank"
         >open-sourced on GitHub</a
       >
       and
-      <a href="https://heartfelt-bubblegum-dad9bb.netlify.app"
+      <a href="https://heartfelt-bubblegum-dad9bb.netlify.app" target="_blank"
         >hosted on Netlify</a
       >
-    </div>
-  </body>
+    </p>
+    </footer>
+  
 </html>
